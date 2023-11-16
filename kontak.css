@@ -1,0 +1,36 @@
+*{
+.jumbotron {
+        position: relative;
+        background: url(assets/images/lading-page.png) center center;
+        color:#fff;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+
+/*** Contact ***/
+@media (min-width: 992px) {
+    .container.contact {
+        max-width: 100% !important;
+    }
+
+    .contact-text  {
+        padding-left: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-text  {
+        padding-left: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .contact-text  {
+        padding-left: calc(((100% - 1320px) / 2) + .75rem);
+    }
+}
+}
